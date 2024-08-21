@@ -1,0 +1,38 @@
+.item{
+    color: #ffffff;
+    border-radius: 0.5em;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 0.1em;
+}
+.cont p{
+    height: 145px;
+    padding:0px;
+    margin: 0px;
+    overflow-y:scroll ;
+    text-align: center;
+    border-radius: 10px;
+}
+.item ul :hover{
+    color: #5db4ca;
+    background-color: #58838e;
+    transition:0.30s;
+}
+.item ul button{
+    padding: 10px 5% 10px 5%;
+    border-radius: 1px 1px 1px 1px;
+    color: #ffffff;
+    background-color: #7099a3;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+.item ul{
+    text-align: center;
+    display: inline;
+    margin: 0.1em;
+}
+.card{
+    font-size: 15px;
+}
